@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>my first web form</title>   
+       </head>
+       <body>
+           <h1>fill in your biodata</h1>
+           <form method="get">
+       <fieldset>
+           <legend>Biodata</legend>
+           <label for="fullname">fullname</label>
+           <input type="text" name="fullname" id="fullname">
+           <label for="Email">Email</label>
+           <input type="text" name="Email" id="Email" required part="(a-z0-9._%+-)+@(a-z0-9.-)+\.(a-z)(2,)$" title="please enter a valid email address">
+           <label for="Phone number">Phone number</label>
+           <input type="number" name="Phone number" id="Phone number">
+           <label for="Male">Male</label>
+           <input type="radio" name="sex" id="Male" value="Male">
+           <label for="Female">Female</label>
+           <input type="radio" name="sex" id="Female" value="Female">
+           <label for="Password">Password</label>
+           <input type="text" name="Password" id="Password">
+           <input type="button" value="Submit">
+       </fieldset>
+           </form>
+           <script type="text/javascript">
+               alert("Submission was successful");
+           </script>
+       </body>
+</html>
